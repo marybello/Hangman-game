@@ -103,6 +103,9 @@ window.addEventListener('keydown', e => {
         }
     }
 });
+wordEl.addEventListener('click', () => {
+wordEl.trigger("focus");
+});
 // Restart game and play again
 playAgainBtn.addEventListener('click', () => {
     playable = true;
